@@ -55,8 +55,14 @@ header{
     margin: 0;
     color: var(--color-textclassic);
 }
+header>img{
+    max-width: 10rem;
+    display: inline-block;
+    margin-right: 2rem;
+}
 header>h1{
-    font-size: 3rem;
+    font-size: 4rem;
+    display: inline-block;
 }
 main{
     width: 120rem;
