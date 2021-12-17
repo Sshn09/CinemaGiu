@@ -1,10 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /*Reset*/
+html{
+    scroll-behavior: smooth;
+}
+body,h1,h2,h3,p,ul{
+    margin: 0;
+    font-size: 62.5%;
+    padding: 0;
+    font: 1.3rem 'Lobster', sans-serif;
+    font-weight: 200;
+    list-style: none;
+}
 body{
     margin: 0;
+    line-height: 1.6rem;
+    text-rendering:optimizeLegibility;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+button, input[type="submit"]{
     padding: 0;
-    font-size: 62.5%;
-    font: 1.3rem 'Lobster';
+    background-color: transparent;
+    font-size: inherit;
+    border: 0;
+}
+input,textarea{
+    border: 0;
 }
 /*charte graphique couleur*/
 :root{
@@ -20,6 +54,9 @@ header{
     padding: 0;
     margin: 0;
     color: var(--color-textclassic);
+}
+header>h1{
+    font-size: 3rem;
 }
 main{
     width: 120rem;
