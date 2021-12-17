@@ -15,6 +15,7 @@ body{
     margin: 0;
     line-height: 1.6rem;
     text-rendering:optimizeLegibility;
+    background-color: var(--color-secondary);
 }
 *{
     box-sizing: border-box;
@@ -67,7 +68,6 @@ header>h1{
 main{
     width: 120rem;
     max-width: 100%;
-    background-color: var(--color-secondary);
     color: var(--color-textclassic);
 }
 main>h2{
@@ -75,6 +75,7 @@ main>h2{
     max-width: 100%;
     font-size: 2rem;
     margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
 }
 main>p{
     text-align: center;
