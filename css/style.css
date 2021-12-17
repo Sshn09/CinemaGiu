@@ -22,19 +22,22 @@ header{
     color: var(--color-textclassic);
 }
 main{
-    max-width: 120rem;
+    width: 120rem;
+    max-width: 100%;
     background-color: var(--color-secondary);
     color: var(--color-textclassic);
-    margin: auto;
 }
 main>h2{
     text-align: center;
     max-width: 100%;
 }
-
 main>p{
     text-align: center;
     max-width: 50%;
+    margin-left: 25%;
+}
+main>ul>li{
+    list-style: none;
 }
 footer{
     text-align: center;
