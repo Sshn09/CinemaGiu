@@ -11,6 +11,7 @@ body{
     --color-initial:#fff;
     --color-primary:#202124;
     --color-secondary:#24292f;
+    --color-textclassic: rgb(187, 187, 187);
 }
 header{
     text-align: center;
@@ -18,10 +19,13 @@ header{
     background-color: var(--color-primary);
     padding: 0;
     margin: 0;
+    color: var(--color-textclassic);
 }
 main{
     max-width: 120rem;
     background-color: var(--color-secondary);
+    color: var(--color-textclassic);
+    margin: auto;
 }
 main>h2{
     text-align: center;
@@ -36,4 +40,5 @@ footer{
     text-align: center;
     max-width: 100%;
     background-color: var(--color-primary);
+    color: var(--color-textclassic);
 }
