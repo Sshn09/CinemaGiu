@@ -47,6 +47,7 @@ input,textarea{
     --color-primary:#202124;
     --color-secondary:#24292f;
     --color-textclassic: #bbbbbb;
+    --color-primary-boosted: #0c0c0c;
 }
 header{
     text-align: center;
@@ -135,9 +136,9 @@ footer{
 .form h2{
     font-family: sans-serif;
     text-align: center;
-    max-width: 50%;
+    max-width: 70%;
     margin: 0 auto;
-    border: solid 0.1rem var(--color-textclassic);
+    border-bottom: solid 0.1rem var(--color-primary);
     color:var(--color-initial);
     padding: 1rem;
     line-height: 2rem;
@@ -148,7 +149,7 @@ footer{
     margin: 0rem auto;
 }
 .form form label{
-    text-align: center;
+    
     line-height: 3rem;
     color: var(--color-textclassic);
     margin: 0.5rem auto;
@@ -159,33 +160,33 @@ footer{
 }
 
 .form form input{
-    border: .1rem solid var(--color-textclassic);
-    background-color: var(--color-primary);
-    color: var(--color-initial);
+    background-color: var(--color-primary-boosted);
+    color: var(--color-textclassic);
     padding: 1rem;
-    border-radius: .7rem;
     width: 100%;
+    font-size: 1rem;
+    opacity: 50%;
 }
 
 .form form input:last-child{
     margin: 5rem auto;
     color: var(--color-initial);
-    border: solid var(--color-initial) .1rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-boosted);
     cursor: pointer;
+    width: 50%;
+    font-size: 1.6rem;
 }
 .bouton-form{
     max-width: 100%;
     text-align: center;
     margin-bottom: .1rem;
     line-height: 3rem;
-    color: var(--color-primary);
-    border: solid var(--color-primary) .1rem;
-    background-color: var(--color-textclassic);
+    color: var(--color-initial);
+    
     display: block;
     margin: 0 auto;
     width: 10rem;
-    font-size: 1rem;
+    font-size: inherit;
 }
 @media screen and (max-width: 400px){
     header h1{
