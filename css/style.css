@@ -46,7 +46,7 @@ input,textarea{
     --color-initial:#fff;
     --color-primary:#202124;
     --color-secondary:#24292f;
-    --color-textclassic: rgb(187, 187, 187);
+    --color-textclassic: #bbbbbb;
 }
 header{
     text-align: center;
