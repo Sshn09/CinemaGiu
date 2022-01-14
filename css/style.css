@@ -185,7 +185,7 @@ footer{
     
     display: block;
     margin: 0 auto;
-    width: 10rem;
+    width: 15rem;
     font-size: inherit;
 }
 @media screen and (max-width: 400px){
