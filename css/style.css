@@ -55,8 +55,9 @@ header{
     padding: 0;
     margin: 0;
     color: var(--color-textclassic);
+    margin-bottom: 2rem;
 }
-header>img{
+header>h1>img{
     max-width: 5rem;
     display: inline-block;
     margin-right: 2rem;
@@ -129,4 +130,59 @@ footer{
     color: var(--color-textclassic);
     margin: 5rem 0 0;
     padding: 1rem;
+}
+/*Formulaire*/
+.form h2{
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    border: solid 0.1rem var(--color-textclassic);
+    color:var(--color-initial);
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.form form{
+    max-width: 50rem;
+    margin: 0rem auto;
+}
+.form form label{
+    text-align: center;
+    line-height: 3rem;
+    color: var(--color-textclassic);
+    margin: 0.5rem auto;
+
+}
+.form form input, .form form label{
+    display: block;
+}
+
+.form form input{
+    border: .1rem solid var(--color-textclassic);
+    background-color: var(--color-primary);
+    color: var(--color-initial);
+    padding: 1rem;
+    border-radius: .7rem;
+    width: 100%;
+}
+
+.form form input:last-child{
+    margin: 5rem auto;
+    color: var(--color-initial);
+    border: solid var(--color-initial) .1rem;
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+.bouton-form{
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: .1rem;
+    line-height: 3rem;
+    color: var(--color-primary);
+    border: solid var(--color-primary) .1rem;
+    background-color: var(--color-textclassic);
+    display: block;
+    margin: 0 auto;
+    width: 15rem;
 }
