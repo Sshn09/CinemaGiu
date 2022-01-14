@@ -85,6 +85,8 @@ main>section>p{
     margin-left: 25%;
     margin-bottom: 1.6rem;
     border: solid 0.1rem var(--color-textclassic);
+    padding: 1rem;
+    line-height: 2rem;
 }
 .image-selec{
     margin-bottom: 5rem;
