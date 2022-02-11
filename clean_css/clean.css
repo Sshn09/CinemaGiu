@@ -190,7 +190,7 @@ footer{
 }
 @media screen and (max-width: 450px){
     header>h1{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     main>section>p{
         font-size: 1rem;
