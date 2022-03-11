@@ -3,7 +3,7 @@
 html{
     scroll-behavior: smooth;
 }
-body,h1,h2,p,ul{
+body,h1,h2,h3,p,ul{
     margin: 0;
     font-size: 62.5%;
     padding: 0;
@@ -111,6 +111,20 @@ main>section>p{
     object-fit: cover;
 
 }
+.image-selec ul li:hover{
+    transform: scale(1.3) ;
+    color: rgba(187, 187, 187, 1);
+    transition: 1s;
+    
+}
+
+.image-selec ul li p{
+    text-align: center;
+    background-color: var(--color-secondary);
+    color:rgba(187, 187, 187, 0);
+    font-size: 2rem ;
+    
+}
 .bouton{
     max-width: 100%;
     text-align: center;
@@ -189,7 +203,7 @@ footer{
 }
 @media screen and (max-width: 450px){
     header>h1{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
     main>section>p{
         font-size: 1rem;
