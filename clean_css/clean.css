@@ -69,8 +69,7 @@ header>h1{
     color: var(--color-initial);
 }
 main{
-    width: 120rem;
-    max-width: 100%;
+    width: 0 auto;
     color: var(--color-textclassic);
 }
 main>section>h2{
