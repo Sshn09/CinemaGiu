@@ -92,8 +92,10 @@ main>section>p{
 .image-selec{
     margin-bottom: 5rem;
 }
+
 .image-selec ul li figure{
     position: relative;
+
 }
 .image-selec ul li figure .material-icons{
     vertical-align: -.4rem;
@@ -122,16 +124,16 @@ main>section>p{
     display: grid;
     max-width: 80rem;
     margin: 0 auto;
-    grid-template-columns: repeat(5, 3fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     
 }
 .image-selec ul li figure img{
-    display: inline-block;
+    display: block;
     width: 100%;
     height: 100%;
-    vertical-align: middle;
     object-fit: cover;
+    
 }
 .bouton{
     max-width: 100%;
