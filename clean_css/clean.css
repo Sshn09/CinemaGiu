@@ -41,6 +41,10 @@ a{
 input{
     border: 0;
 }
+button{
+    border: 0;
+    background: none;
+}
 /*charte graphique couleur*/
 :root{
     --color-initial:#fff;
@@ -245,12 +249,13 @@ footer{
     transition: all 0.4s ease-in-out;
 }
 .parent-modale .modale{
-   max-width: 40rem;
-    padding: 1rem;
+    font-size: 0;
+    max-width: 80rem;
+    padding: 1rem 0 1rem 1rem;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -75%);
+    transform: translate(-50%, -50%);
     background-color: #fff;
     box-shadow: 0 0 1rem rgba(0,0,0,0.6);
     z-index: 2;
@@ -258,12 +263,25 @@ footer{
     
     
 }
+.parent-modale .modale img{
+    margin-right: 1rem;
+}
+.parent-modale .modale img, .parent-modale .modale figcaption{
+    display: inline-block;
+    width: calc(100% / 2  - 1rem);
+    vertical-align: top;
+    font-size: inherit;
+    
+}
+.parent-modale .modale figcaption{
+    
+}
 .parent-modale .modale .desc{
     position: static;
     transition: none;
     background-color: #fff;
     color: #222;
-    
+    font-size: 1.2rem;
 }
 .modale-active{
     z-index: 1;
@@ -286,6 +304,6 @@ footer{
     right: 1.5rem;
     font-size: 2rem;
     z-index: 2;
-    color: #333;
+    color: #fff;
     cursor: pointer;
 }
