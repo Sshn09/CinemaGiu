@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", e => {
         document.querySelector(".modale img").setAttribute("src", image);
         document.querySelector(".modale .desc h3").innerText = title;
         document.querySelector(".modale .desc .synopsis").innerHTML = `<strong>Synopsis : </strong>${desc}`;
-        document.querySelector(".modale .desc .date").innerText = `Annee ${dates}`;
+        document.querySelector(".modale .desc .date").innerText = `Date : ${dates}`;
         document.querySelector(".modale .desc .date").setAttribute("datetime", dates);
-        document.querySelector(".modale .desc .genre").innerHTML = `Genre : ${genres}`;
-        document.querySelector(".modale .desc .duree").innerText = `Annee ${duree}`;
+        document.querySelector(".modale .desc .genre").innerHTML = `<strong> Genre :</strong> ${genres}`;
+        document.querySelector(".modale .desc .duree").innerText = `Durée : ${duree}`;
         document.querySelector(".modale .desc .duree").setAttribute("datetime", duree);
     };
     for (rows of el) {

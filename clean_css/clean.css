@@ -273,9 +273,6 @@ footer{
     font-size: inherit;
     
 }
-.parent-modale .modale figcaption{
-    
-}
 .parent-modale .modale .desc{
     position: static;
     transition: none;
@@ -289,11 +286,28 @@ footer{
     transform-origin: center center;
 }
 .parent-modale .modale .desc h3{
-    font-size: x-large;
+    font-size: 2rem;
     font-weight: 400;
     background-color: #222;
     color: #fff;
     padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.parent-modale .modale .desc .synopsis{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.parent-modale .modale .desc .date{
+    font-size: 1.6rem;
+}
+.parent-modale .modale .desc .genre{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+.parent-modale .modale .desc .duree{
+    font-size: 1.6rem;
 }
 .parent-modale .modale .desc p :is(time){
     padding: 1rem;
