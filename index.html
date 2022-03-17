@@ -23,13 +23,16 @@
     <main>
         <section>
             <h2>Prêt à regarder ? Remplissez le formulaire proposé dans cette page</h2>
-            <p>Tous les mois profitez de toutes les nouveautés série et cinéma. A partir du mois
-                prochain on vous propose tous les classiques du cinéma. Où que vous soyez. Tous
-                les films en VO, VOST, VF et plus d'options</p>
         </section>
         <section class="image-selec">
             <ul>
-                <li>
+                <li
+                data-image="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qKIojgEx9CCMfODvoPBsPsD69W9.jpg" 
+                data-title="Moonfall" 
+                data-synopsis="Un astéroïde percute la Lune. L'orbite de cette dernière est déviée et se dirige vers la Terre. Une équipe d'astronautes, composée entre autres de l'administratrice de la NASA et d'un génie scientifique, se rend sur l'astre afin de sauver la planète. Mais sur place, ils devront faire face à une force inconnue qui pourrait bien changer notre vision de l'Univers." 
+                data-dates="09/02/2022"
+                data-types="Action, Aventure, Science-Fiction"
+                data-times="2h 10m">
                     <figure>
                         <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qKIojgEx9CCMfODvoPBsPsD69W9.jpg" alt="Moonfall">
                         <figcaption>
@@ -40,7 +43,13 @@
                         </figcaption>
                     </figure>
                 </li>
-                <li>
+                <li
+                data-image="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/krbjW0bbXSdeysYGMrdfpcJy6PH.jpg" 
+                data-title="The Batman" 
+                data-synopsis="Deux années à arpenter les rues en tant que Batman et à insuffler la peur chez les criminels ont mené Bruce Wayne au coeur des ténèbres de Gotham. Avec seulement quelques alliés de confiance parmi le réseau de corruption de la ville composé de responsables et de personnalités de premier plan, le justicier solitaire s’est établi comme l’unique incarnation de la vengeance auprès de ses concitoyens. Quand un tueur vise l’élite de Gotham avec une série de machinations sadiques, une piste d’indices énigmatiques lance le plus grand détective du monde dans une enquête dans le milieu de la pègre, où il rencontre des personnages comme Catwoman, Le Pingouin, Carmine Falcone et Le Riddler. Alors que les preuves s’accumulent et que le plan du malfaiteur devient clair, Batman doit forger de nouvelles relations, démasquer le coupable et rétablir un peu de justice au milieu de l’abus de pouvoir et de corruption qui tourmente Gotham depuis longtemps." 
+                data-dates="09/02/2022"
+                data-types="Action, Aventure, Science-Fiction"
+                data-times="2h 10m">
                     <figure>
                         <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/krbjW0bbXSdeysYGMrdfpcJy6PH.jpg" alt="Batman">
                         <figcaption>
@@ -199,6 +208,25 @@
         <a class="bouton" href="./form.html">Cliquez ici pour commencer</a>
     </main>
     <footer>&copy; - StreamFree - 2022</footer>
+    <div class="parent-modale" role="dialog">
+        <figure class="modale">
+            <button aria-label="closed">
+                <span class="material-icons">clear</span>
+            </button>
+            <img src="https://via.placeholder.com/500" alt="picture">
+            <figcaption class="desc">
+                <h3></h3>
+                <p class="synopsis">
+                   
+                </p>
+                <time class="date"> </time>
+                <p class="genre"> </p>
+                <time class="duree"> </time>
+
+            </figcaption>
+        </figure>
+    </div>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
