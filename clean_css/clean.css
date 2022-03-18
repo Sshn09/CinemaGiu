@@ -353,7 +353,7 @@ footer{
         font-size: 1.2rem;
     }
 }
-@media screen and (max-height: 700px) and (max-width: 900px){
+@media screen and (max-height: 600px) and (max-width: 900px){
     .parent-modale .modale{
         overflow: hidden;
         overflow-block: scroll;
