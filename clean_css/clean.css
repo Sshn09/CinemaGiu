@@ -235,14 +235,15 @@ footer{
         grid-template-columns: repeat(3, 5fr);
         
     }
+    
 }
 /*Modal*/
 .parent-modale{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
     background-color: rgba(0,0,0,0.5);
     opacity: 0;
     z-index: -1;
@@ -320,4 +321,52 @@ footer{
     z-index: 2;
     color: #fff;
     cursor: pointer;
+}
+@media screen and (max-width: 1450px){
+    .parent-modale .modale {
+        max-width: 50rem;
+        top: 50%;
+    }
+    
+    .parent-modale .modale .desc .synopsis{
+        overflow: hidden;
+        overflow-block: scroll ;
+        max-height: 10rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .parent-modale .modale img, .parent-modale .modale figcaption{
+        display: block;
+        width: 100% ;
+    }    
+    .parent-modale .modale{
+        padding: .5rem .5rem .5rem .5rem; 
+        max-width: 30rem;
+        top: 50%;
+    }
+    .parent-modale .modale button{
+        position:fixed sticky;
+    }
+    .parent-modale .modale .desc h3{
+        font-size: 1.6rem;
+    }
+    .parent-modale .modale .desc .synopsis,.parent-modale .modale .desc .date, .parent-modale .modale .desc .genre, .parent-modale .modale .desc .duree{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-height: 700px) and (max-width: 900px){
+    .parent-modale .modale{
+        overflow: hidden;
+        overflow-block: scroll;
+        scroll-margin-block: 1rem auto;
+        max-height: 20rem;
+    }
+    .parent-modale .modale{
+        top: 50%;
+        
+    }
+    .parent-modale .modale img, .parent-modale .modale figcaption{
+        display: inline-block;
+        width: calc(100% / 2  - 1rem);
+    }
 }
