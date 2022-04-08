@@ -325,7 +325,6 @@ footer{
 @media screen and (max-width: 1450px){
     .parent-modale .modale {
         max-width: 50rem;
-
     }
     
     .parent-modale .modale .desc .synopsis{
@@ -335,6 +334,9 @@ footer{
     }
 }
 @media screen and (max-width: 900px){
+    header h1 img{
+        display: none;
+    }
     .parent-modale .modale img, .parent-modale .modale figcaption{
         display: block;
         width: 100% ;
@@ -353,11 +355,11 @@ footer{
         font-size: 1.2rem;
     }
 }
-@media screen and (max-height: 600px) and (max-width: 900px){
+@media screen and (max-height: 600px){
     .parent-modale .modale{
         overflow: hidden;
         overflow-block: scroll;
-        scroll-margin-block: 1rem auto;
+
         max-height: 20rem;
     }
     .parent-modale .modale img, .parent-modale .modale figcaption{
