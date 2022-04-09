@@ -62,12 +62,12 @@ header{
     color: var(--color-textclassic);
     margin-bottom: 2rem;
 }
-header>h1>img{
+header>a>h1>img{
     max-width: 5rem;
     display: inline-block;
     margin-right: 2rem;
 }
-header>h1{
+header>a>h1{
     font-size: 4rem;
     display: inline-block;
     color: var(--color-initial);
@@ -321,6 +321,14 @@ footer{
     z-index: 2;
     color: #fff;
     cursor: pointer;
+}
+.parent-modale .modale .desc .vplus{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-textclassic);
+    padding: 0.2rem;
 }
 
 /*page film*/
